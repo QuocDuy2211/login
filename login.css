@@ -56,9 +56,12 @@
     width: 450px;
     height: 40px; 
     border-radius: 4px;
+    padding: 0 10px;
+    margin-bottom: 10px;
 }
 #banquen{
     color: #0B57D0;
+    text-decoration: none;
     
 }   
 #timhieu{
@@ -74,15 +77,34 @@
 
 }
 #taikhoan{
-    color:#0B57D0 ;
-    margin: 30px;
-}
-#tieptheo{
+    margin-right: 10px;
     height: 30px;
     width: 120px;
+    color: #0B57D0;
+    border-radius: 50px;
+    background-color: transparent;
+    border: none;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#taikhoan:hover{
+    background-color: #f4f4f4;
+}
+
+#tieptheo{
+    height: 30px;
+    width: 100px;
     color: white;
     border-radius: 50px;
     background-color: #0B57D0;
+    border: none;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
